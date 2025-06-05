@@ -1,0 +1,742 @@
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T15:30:49.326Z"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2025-05-30T15:30:49.332Z"}
+{"level":"error","message":"MongoDB connection error: Can't call `openUri()` on an active connection with different connection strings. Make sure you aren't calling `mongoose.connect()` multiple times. See: https://mongoosejs.com/docs/connections.html#multiple_connections","stack":"MongooseError: Can't call `openUri()` on an active connection with different connection strings. Make sure you aren't calling `mongoose.connect()` multiple times. See: https://mongoosejs.com/docs/connections.html#multiple_connections\n    at NativeConnection.createClient (C:\\xampp\\JSPREP\\SanagamMukharjee\\MileStone-7-Authntication\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:251:13)\n    at NativeConnection.openUri (C:\\xampp\\JSPREP\\SanagamMukharjee\\MileStone-7-Authntication\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (C:\\xampp\\JSPREP\\SanagamMukharjee\\MileStone-7-Authntication\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at Object.<anonymous> (C:\\xampp\\JSPREP\\SanagamMukharjee\\MileStone-7-Authntication\\server.js:23:10)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2025-05-30T15:30:49.335Z"}
+{"cause":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"localhost:27017":{"$clusterTime":null,"address":"localhost:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":9806937,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":null,"stale":false,"type":"Unknown"},"errorLabelSet":{},"level":"error","message":"MongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"localhost:27017":{"$clusterTime":null,"address":"localhost:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":9806937,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":null,"stale":false,"type":"Unknown"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017\n    at _handleConnectionErrors (C:\\xampp\\JSPREP\\SanagamMukharjee\\MileStone-7-Authntication\\node_modules\\mongoose\\lib\\connection.js:1165:11)\n    at NativeConnection.openUri (C:\\xampp\\JSPREP\\SanagamMukharjee\\MileStone-7-Authntication\\node_modules\\mongoose\\lib\\connection.js:1096:11)\n    at async connectDB (C:\\xampp\\JSPREP\\SanagamMukharjee\\MileStone-7-Authntication\\database\\db.js:14:22)","timestamp":"2025-05-30T15:30:53.959Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T15:32:27.041Z"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2025-05-30T15:32:27.046Z"}
+{"level":"error","message":"MongoDB connection error: Can't call `openUri()` on an active connection with different connection strings. Make sure you aren't calling `mongoose.connect()` multiple times. See: https://mongoosejs.com/docs/connections.html#multiple_connections","stack":"MongooseError: Can't call `openUri()` on an active connection with different connection strings. Make sure you aren't calling `mongoose.connect()` multiple times. See: https://mongoosejs.com/docs/connections.html#multiple_connections\n    at NativeConnection.createClient (C:\\xampp\\JSPREP\\SanagamMukharjee\\MileStone-7-Authntication\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:251:13)\n    at NativeConnection.openUri (C:\\xampp\\JSPREP\\SanagamMukharjee\\MileStone-7-Authntication\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (C:\\xampp\\JSPREP\\SanagamMukharjee\\MileStone-7-Authntication\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at Object.<anonymous> (C:\\xampp\\JSPREP\\SanagamMukharjee\\MileStone-7-Authntication\\server.js:23:10)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Module._load (node:internal/modules/cjs/loader:1104:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2025-05-30T15:32:27.048Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T15:32:27.710Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T15:37:09.518Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T15:37:09.522Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T15:37:10.266Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T15:37:39.907Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T15:37:39.914Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T15:37:40.491Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T15:40:06.021Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T15:40:06.027Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T15:40:06.893Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T15:41:46.022Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T15:41:46.036Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T15:41:46.724Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T15:43:56.302Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T15:43:56.307Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T15:43:57.120Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T15:44:21.246Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T15:44:21.250Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T15:44:21.824Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T15:49:24.576Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T15:49:24.582Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T15:49:25.303Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T15:51:04.417Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T15:51:04.425Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T15:51:05.118Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T15:56:14.906Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T15:56:14.911Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T15:56:15.659Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T15:57:32.327Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T15:57:32.335Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T15:57:33.081Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T15:58:52.226Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T15:58:52.441Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T15:58:53.319Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T16:01:46.557Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T16:01:46.563Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T16:01:47.317Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T16:03:18.014Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T16:03:18.020Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T16:03:18.665Z"}
+{"level":"error","message":"Cannot access 'formattedErrors' before initialization","path":"/login","timestamp":"2025-05-30T16:03:19.156Z"}
+{"level":"error","message":"Cannot access 'formattedErrors' before initialization","path":"/login","timestamp":"2025-05-30T16:03:20.562Z"}
+{"level":"error","message":"Cannot access 'formattedErrors' before initialization","path":"/login","timestamp":"2025-05-30T16:03:21.915Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T16:03:47.043Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T16:03:47.051Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T16:03:47.675Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T16:04:33.069Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T16:04:33.078Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T16:04:33.919Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T16:05:32.330Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T16:05:32.336Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T16:05:33.001Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T16:05:53.333Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T16:05:53.341Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T16:05:54.080Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T16:06:18.717Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T16:06:18.728Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T16:06:19.365Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T16:06:45.179Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T16:06:45.184Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T16:06:45.867Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T16:07:03.824Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T16:07:03.834Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T16:07:04.431Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T16:08:32.156Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T16:08:32.163Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T16:08:32.916Z"}
+{"level":"error","message":"formattedErrors is not defined","path":"/login","timestamp":"2025-05-30T16:08:33.893Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T16:09:06.898Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T16:09:06.903Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T16:09:07.448Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T16:09:35.332Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T16:09:35.336Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T16:09:36.036Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T16:10:14.069Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T16:10:14.074Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T16:10:14.613Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T16:58:19.286Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T16:58:19.300Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T16:58:20.033Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T16:59:40.409Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T16:59:40.415Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T16:59:41.180Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T17:00:06.391Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T17:00:06.400Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T17:00:07.068Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T17:01:46.143Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T17:01:46.152Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T17:01:46.941Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T17:02:01.670Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T17:02:01.696Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T17:02:02.582Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T17:03:30.689Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T17:03:30.695Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T17:03:31.358Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T17:05:12.137Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T17:05:12.142Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T17:05:12.912Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T17:07:20.495Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T17:07:20.499Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T17:07:21.226Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T17:08:06.535Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T17:08:06.542Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T17:08:07.158Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T17:10:25.391Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T17:10:25.397Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T17:10:26.131Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T17:11:08.462Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T17:11:08.467Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T17:11:09.077Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T17:16:37.086Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T17:16:37.091Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T17:16:37.803Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T17:17:30.456Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T17:17:30.461Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T17:17:31.046Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T17:17:48.449Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T17:17:48.455Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T17:17:49.090Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T17:18:03.590Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T17:18:03.598Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T17:18:04.257Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T17:23:40.942Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T17:23:40.948Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T17:23:41.696Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T17:25:53.647Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T17:25:53.652Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T17:25:54.327Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T17:28:37.807Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T17:28:37.814Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T17:28:38.539Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T17:30:41.558Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T17:30:41.563Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T17:30:42.456Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T17:31:26.400Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T17:31:26.405Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T17:31:26.981Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T17:32:31.810Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T17:32:31.818Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T17:32:32.711Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T17:33:13.295Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T17:33:13.300Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T17:33:13.895Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T17:34:23.118Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T17:34:23.122Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T17:34:23.835Z"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2025-05-30T17:49:48.883Z"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2025-05-30T17:50:59.768Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T18:03:46.708Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T18:03:46.718Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T18:03:47.452Z"}
+{"level":"error","message":"errors.forEach is not a function","path":"/login","timestamp":"2025-05-30T18:04:24.929Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T18:27:25.710Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T18:27:25.715Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T18:27:26.482Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T18:29:09.133Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T18:29:09.138Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T18:29:09.887Z"}
+{"level":"error","message":"errors.forEach is not a function","path":"/login","timestamp":"2025-05-30T18:29:13.725Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T18:29:59.448Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T18:29:59.455Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T18:30:00.034Z"}
+{"level":"error","message":"errors.forEach is not a function","path":"/login","timestamp":"2025-05-30T18:30:03.213Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T18:30:41.548Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T18:30:41.554Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T18:30:42.249Z"}
+{"level":"error","message":"errors.forEach is not a function","path":"/login","timestamp":"2025-05-30T18:30:46.348Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T18:32:17.616Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T18:32:17.620Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T18:32:18.379Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T18:32:26.060Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T18:32:26.065Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T18:32:26.640Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T18:33:01.544Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T18:33:01.550Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T18:33:02.116Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T18:34:10.408Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T18:34:10.413Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T18:34:11.095Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T18:34:21.914Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T18:34:21.928Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T18:34:22.719Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T18:46:39.531Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T18:46:39.538Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T18:46:40.386Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T18:47:23.966Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T18:47:24.068Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T18:47:24.710Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'path')","path":"/login","timestamp":"2025-05-30T18:47:25.334Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T18:47:58.336Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T18:47:58.343Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T18:47:59.038Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T18:48:22.008Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T18:48:22.012Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T18:48:22.566Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T18:49:32.663Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T18:49:32.667Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T18:49:33.370Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T18:50:02.044Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T18:50:02.053Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T18:50:02.708Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T18:53:28.494Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T18:53:28.501Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T18:53:29.222Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T18:54:00.909Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T18:54:00.914Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T18:54:01.480Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T18:54:43.554Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T18:54:43.560Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T18:54:44.238Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T19:02:17.434Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T19:02:17.441Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T19:02:18.250Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T19:06:43.475Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T19:06:43.491Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T19:06:44.188Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T19:07:13.407Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T19:07:13.417Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T19:07:14.072Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T19:08:02.621Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T19:08:02.632Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T19:08:03.386Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T19:14:17.784Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T19:14:17.788Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T19:14:18.468Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T19:14:44.489Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T19:14:44.493Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T19:14:45.234Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T19:15:45.354Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T19:15:45.360Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T19:15:46.036Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T19:16:38.679Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T19:16:38.683Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T19:16:39.245Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T19:17:15.225Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T19:17:15.230Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T19:17:15.825Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T19:18:31.344Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T19:18:31.349Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T19:18:32.067Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T19:20:15.183Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T19:20:15.187Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T19:20:15.930Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-05-30T19:21:06.563Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-30T19:21:06.575Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-05-30T19:21:07.159Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T10:29:33.924Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T10:29:33.929Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T10:29:34.810Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T10:30:32.906Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T10:30:32.911Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T10:30:33.499Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T10:37:37.634Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T10:37:37.639Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T10:37:38.566Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T10:38:32.215Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T10:38:32.221Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T10:38:32.884Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T10:40:27.774Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T10:40:27.779Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T10:40:28.685Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T10:41:16.475Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T10:41:16.479Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T10:41:17.083Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T10:43:33.544Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T10:43:33.548Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T10:43:34.276Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T10:48:39.403Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T10:48:39.408Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T10:48:40.294Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T10:49:39.720Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T10:49:39.731Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T10:49:40.580Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T10:50:21.632Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T10:50:21.639Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T10:50:22.256Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T10:53:01.276Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T10:53:01.287Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T10:53:02.115Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T10:54:51.427Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T10:54:51.431Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T10:54:52.302Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T10:54:56.283Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T10:54:56.288Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T10:54:56.885Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T10:55:43.103Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T10:55:43.113Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T10:55:43.804Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:00:27.635Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:00:27.647Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:00:30.379Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:02:48.833Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:02:48.918Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:02:52.201Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:02:52.209Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:02:52.858Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:03:14.444Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:03:14.455Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:03:15.125Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:11:04.913Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:11:04.919Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:11:05.733Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:13:37.224Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:13:37.230Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:13:38.127Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:14:46.815Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:14:46.824Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:14:47.553Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:15:19.079Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:15:19.084Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:15:19.676Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:16:06.559Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:16:06.565Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:16:07.230Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:16:46.625Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:16:46.631Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:16:47.282Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:17:42.330Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:17:42.343Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:17:43.092Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:18:13.257Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:18:13.263Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:18:13.869Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:21:54.683Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:21:54.688Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:21:55.475Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:23:24.756Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:23:24.763Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:23:25.441Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:23:42.998Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:23:43.002Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:23:43.576Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:24:16.029Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:24:16.034Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:24:16.596Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:24:54.300Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:24:54.309Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:24:54.894Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:25:34.958Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:25:34.963Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:25:35.630Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:25:59.471Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:25:59.476Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:26:00.131Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:26:25.911Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:26:25.916Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:26:26.498Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:29:52.447Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:29:52.451Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:29:53.221Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:31:08.662Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:31:08.672Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:31:09.460Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:32:06.825Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:32:06.829Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:32:07.397Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:32:20.743Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:32:20.747Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:32:21.353Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:36:11.077Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:36:11.086Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:36:11.783Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:37:42.807Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:37:42.813Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:37:43.517Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:38:07.433Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:38:07.440Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:38:08.050Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:38:12.363Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:38:12.368Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:38:12.993Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:38:22.894Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:38:22.899Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:38:25.542Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:39:02.758Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:39:02.764Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:39:03.449Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-01T11:39:52.308Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-01T11:39:52.313Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-01T11:39:52.905Z"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2025-06-01T18:15:30.509Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T07:16:54.126Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T07:16:54.131Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T07:16:54.968Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T07:18:56.945Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T07:18:56.953Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T07:18:57.738Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T07:22:13.506Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T07:22:13.511Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T07:22:14.353Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T07:23:02.261Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T07:23:02.274Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T07:23:03.050Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T07:32:19.708Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T07:32:19.717Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T07:32:20.390Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T07:36:15.556Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T07:36:15.569Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T07:36:16.373Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T07:41:42.386Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T07:41:42.395Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T07:41:43.136Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T07:42:59.669Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T07:42:59.673Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T07:43:00.401Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T07:44:58.725Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T07:44:58.730Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T07:44:59.473Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T07:52:27.607Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T07:52:27.611Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T07:52:28.537Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T07:53:41.794Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T07:53:41.801Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T07:53:42.527Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T07:54:02.027Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T07:54:02.031Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T07:54:02.590Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T07:54:25.699Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T07:54:25.703Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T07:54:26.281Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T07:55:22.832Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T07:55:22.837Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T07:55:23.601Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T07:58:17.003Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T07:58:17.017Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T07:58:17.782Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T07:58:46.346Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T07:58:46.350Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T07:58:46.950Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T08:00:45.059Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T08:00:45.063Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T08:00:45.697Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T08:01:33.264Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T08:01:33.269Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T08:01:33.848Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T08:03:01.527Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T08:03:01.531Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T08:03:02.305Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T08:03:49.628Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T08:03:49.634Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T08:03:50.230Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T08:04:11.622Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T08:04:11.626Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T08:04:12.365Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T08:04:38.498Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T08:04:38.505Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T08:04:39.128Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T08:04:58.386Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T08:04:58.395Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T08:04:58.976Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T08:05:45.374Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T08:05:45.383Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T08:05:46.051Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T08:17:55.127Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T08:17:55.144Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T08:17:55.916Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T08:26:29.505Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T08:26:29.510Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T08:26:31.293Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T08:29:32.135Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T08:29:32.140Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T08:29:32.816Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T08:29:54.896Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T08:29:54.902Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T08:29:55.478Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T08:33:26.443Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T08:33:26.447Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T08:33:27.094Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T08:34:06.600Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T08:34:06.611Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T08:34:07.408Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T08:34:57.289Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T08:34:57.295Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T08:34:57.908Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T08:35:44.030Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T08:35:44.038Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T08:35:44.701Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T08:37:27.316Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T08:37:27.320Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T08:37:28.086Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T08:37:52.599Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T08:37:52.604Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T08:37:53.172Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T08:39:37.366Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T08:39:37.375Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T08:39:38.220Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T14:27:31.267Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T14:27:31.286Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T14:27:32.095Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T14:36:10.230Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T14:36:10.234Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T14:36:10.946Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T14:37:00.010Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T14:37:00.025Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T14:37:00.648Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T14:44:14.282Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T14:44:14.287Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T14:44:15.023Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T14:46:00.117Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T14:46:00.121Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T14:46:00.806Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T14:46:21.683Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T14:46:21.688Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T14:46:22.252Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T14:49:19.916Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T14:49:19.921Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T14:49:20.651Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T14:50:19.437Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T14:50:19.443Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T14:50:20.022Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T14:53:58.544Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T14:53:58.549Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T14:53:59.341Z"}
+{"level":"error","message":"response.error is not a function","path":"/change-password","timestamp":"2025-06-03T15:01:37.030Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T15:03:05.442Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T15:03:05.449Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T15:03:06.148Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T15:03:49.292Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T15:03:49.298Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T15:03:49.862Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T15:04:33.032Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T15:04:33.038Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T15:04:33.771Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T15:04:58.183Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T15:04:58.189Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T15:04:58.785Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T15:05:29.622Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T15:05:29.647Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T15:05:30.280Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T15:05:52.730Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T15:05:52.736Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T15:05:53.327Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T15:08:25.187Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T15:08:25.193Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T15:08:26.005Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T15:10:30.830Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T15:10:30.835Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T15:10:31.600Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T15:19:36.750Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T15:19:36.756Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T15:19:37.466Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T15:20:31.431Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T15:20:31.436Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T15:20:32.018Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T15:20:53.855Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T15:20:53.859Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T15:20:54.453Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T15:21:59.322Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T15:21:59.336Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T15:22:00.143Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T15:22:23.997Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T15:22:24.006Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T15:22:24.625Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T15:22:38.715Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T15:22:38.719Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T15:22:39.278Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T15:24:46.087Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T15:24:46.093Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T15:24:46.744Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T15:25:44.952Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T15:25:44.957Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T15:25:45.562Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-03T15:26:16.356Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-03T15:26:16.362Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-03T15:26:16.966Z"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2025-06-03T16:41:52.499Z"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2025-06-04T05:00:02.592Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T06:06:14.470Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T06:06:14.487Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T06:06:15.194Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T06:06:26.441Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T06:06:26.446Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T06:06:27.008Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T06:17:07.762Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T06:17:07.767Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T06:17:08.376Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T06:19:54.137Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T06:19:54.150Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T06:19:54.971Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T06:21:30.278Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T06:21:30.282Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T06:21:30.897Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T06:22:13.402Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T06:22:13.414Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T06:22:14.129Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T06:22:42.125Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T06:22:42.133Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T06:22:42.798Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T06:39:26.981Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T06:39:26.995Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T06:39:27.681Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T06:42:55.011Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T06:42:55.016Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T06:42:55.697Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T06:44:02.526Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T06:44:02.533Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T06:44:03.209Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T06:45:19.950Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T06:45:19.954Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T06:45:20.567Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T06:45:47.973Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T06:45:47.979Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T06:45:48.542Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T06:46:29.961Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T06:46:29.966Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T06:46:30.590Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T06:47:53.349Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T06:47:53.354Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T06:47:53.965Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T06:48:44.278Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T06:48:44.284Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T06:48:44.904Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T06:53:29.734Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T06:53:29.738Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T06:53:30.422Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T06:54:22.362Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T06:54:22.367Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T06:54:22.988Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T06:55:03.967Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T06:55:03.976Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T06:55:04.673Z"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2025-06-04T06:56:07.193Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T06:56:45.667Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T06:56:45.678Z"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2025-06-04T06:57:15.847Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T06:59:08.059Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T06:59:08.064Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T06:59:08.728Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T07:00:41.612Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T07:00:41.616Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T07:00:42.273Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T07:01:29.491Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T07:01:29.498Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T07:01:30.074Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T07:01:56.508Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T07:01:56.514Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T07:01:57.148Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T07:05:33.839Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T07:05:33.844Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T07:05:34.501Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T07:27:04.821Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T07:27:04.825Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T07:27:05.870Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T07:27:37.187Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T07:27:37.192Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T07:27:37.831Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T07:28:35.487Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T07:28:35.496Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T07:28:36.165Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T07:28:52.977Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T07:28:52.981Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T07:28:53.568Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T07:36:38.060Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T07:36:38.068Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T07:36:38.780Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T07:37:58.224Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T07:37:58.231Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T07:37:58.934Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T07:39:37.118Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T07:39:37.124Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T07:39:37.863Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T07:41:51.512Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T07:41:51.517Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T07:41:52.192Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T07:42:52.627Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T07:42:52.632Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T07:42:53.262Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T07:47:04.672Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T07:47:04.677Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T07:47:05.346Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T07:47:36.704Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T07:47:36.708Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T07:47:37.335Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T07:55:40.409Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T07:55:40.422Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T07:55:41.183Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T08:01:30.258Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T08:01:30.334Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T08:01:31.130Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T08:41:34.886Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T08:41:34.894Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T08:41:35.599Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T08:41:57.010Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T08:41:57.016Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T08:41:57.645Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T08:44:39.009Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T08:44:39.014Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T08:44:39.735Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T08:46:31.142Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T08:46:31.149Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T08:46:31.846Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T08:47:48.197Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T08:47:48.201Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T08:47:48.878Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T08:48:15.989Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T08:48:15.993Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T08:48:16.630Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T08:48:42.244Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T08:48:42.252Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T08:48:42.956Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T08:59:24.913Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T08:59:24.917Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T08:59:25.650Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T09:03:36.302Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T09:03:36.315Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T09:03:37.046Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T09:04:39.901Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T09:04:39.906Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T09:04:40.638Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T09:06:23.328Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T09:06:23.335Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T09:06:24.054Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T09:07:26.490Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T09:07:26.495Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T09:07:27.134Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T09:07:42.314Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T09:07:42.319Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T09:07:43.035Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T09:08:06.242Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T09:08:06.247Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T09:08:06.849Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T09:10:11.501Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T09:10:11.511Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T09:10:12.203Z"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2025-06-04T09:11:02.188Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T09:11:09.187Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T09:11:09.191Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T09:11:09.816Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T10:13:38.980Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T10:13:38.999Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T10:13:39.704Z"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2025-06-04T10:38:14.128Z"}
+{"level":"info","message":"Server running in development mode on port 2805","timestamp":"2025-06-04T10:49:25.317Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-04T10:49:25.331Z"}
+{"level":"info","message":"MongoDB Connected: ac-zkjahch-shard-00-00.jbj9x2i.mongodb.net","timestamp":"2025-06-04T10:49:26.038Z"}
